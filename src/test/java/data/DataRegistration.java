@@ -8,7 +8,7 @@ import lombok.Data;
 public class DataRegistration {
     private final String login;
     private final String password;
-    private final String statusCard;
+    private final String status;
 
 }
 
