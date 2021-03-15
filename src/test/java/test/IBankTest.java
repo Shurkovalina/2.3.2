@@ -1,15 +1,12 @@
 package test;
 
 import com.codeborne.selenide.Condition;
-import com.github.javafaker.Faker;
 import data.DataRegistration;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.time.Duration;
-import java.util.Locale;
 
-import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
